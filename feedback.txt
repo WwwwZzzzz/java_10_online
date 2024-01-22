@@ -1,0 +1,37 @@
+REMOVE .idea from project
+
+Оч хорошо, чуть позже поясню, почему не оч хорошо создавать
+3 экземпляра BufferedReader, но то в будущем)
+
+                int start = 540;
+                int duration = 45;
+                int brakes[] = { 0, 5, 20, 25, 40, 45, 60, 65, 80, 85, 100 };
+                int brake = brakes[inputValue - 1];
+                int sum = start + (duration * inputValue) + brake;
+                int hours = sum / 60;
+                int minutes = sum % 60;
+
+        вот эти чудо числа лучше выносить в константы)
+
+        И на будущее, не называй так классы - Homework_1_1)
+
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+а это что???)))
+
+
+    public void createProduct(Product product) {
+        for (int i = 0; i < products.length; i++) {
+            if (products[i] == null) {
+                products[i] = product;
+                product.setId(i);
+                break;
+            }
+        }
+    }
+
+    а если я хочу больше 10 студентов добавить?))
+
+а вот к 3 вообще вопросов нет)
